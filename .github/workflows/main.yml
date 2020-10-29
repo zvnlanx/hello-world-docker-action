@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: actions/hello-world-docker-action@v1
+      uses: zvnlanx/hello-world-docker-action@v1
       with:
         who-to-greet: 'Zvnlanx'
     - name: Get the output time
